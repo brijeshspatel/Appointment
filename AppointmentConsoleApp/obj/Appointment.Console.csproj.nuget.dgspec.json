@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\AppointmentConsoleApp\\Appointment.Console.csproj": {}
+  },
+  "projects": {
+    "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\AppointmentConsoleApp\\Appointment.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\AppointmentConsoleApp\\Appointment.Console.csproj",
+        "projectName": "Appointment.Console",
+        "projectPath": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\AppointmentConsoleApp\\Appointment.Console.csproj",
+        "packagesPath": "C:\\Users\\Brijesh\\.nuget\\packages\\",
+        "outputPath": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\AppointmentConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brijesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\Appointment.csproj": {
+                "projectPath": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\Appointment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\Appointment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\Appointment.csproj",
+        "projectName": "Appointment",
+        "projectPath": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\Appointment.csproj",
+        "packagesPath": "C:\\Users\\Brijesh\\.nuget\\packages\\",
+        "outputPath": "I:\\_\\Dev\\Tech\\DotNetCore\\_Trials\\T011\\AppointmentConsoleApp\\Appointment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brijesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
